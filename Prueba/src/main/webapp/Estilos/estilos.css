@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+.titulo-inicio {
+	line-height: 25px;
+	color: white;
+}
+
+h1 {
+	font-size: 75px;
+}
+
+h3 {
+	color: white;
+	font-size: 35px;
+}
+
+body {
+	background-image: url("../img/fondo-web.jpg");
+	background-size: cover;
+	display: flex;
+	-moz-box-pack: start;
+	justify-content: flex-start;
+	flex-direction: column;
+	-moz-box-align: center;
+	align-items: center;
+	position: relative;
+	padding-bottom: 125px;
+	width: 100%;
+	overflow: hidden;
+}
+
+/*ESTILOS CARTAS INICIO*/
+@import
+url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap')
+;
+
+body {
+	font-family: 'Syne Tactile', cursive;
+}
+
+.titulo-inicio {
+	text-align: center;
+	font-size: 20pt;
+	color: rgb(255, 255, 255);
+	text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.95885px
+		0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.14147px
+		1.99499px 0px, rgb(0, 0, 0) -0.83229px 1.81859px 0px, rgb(0, 0, 0)
+		-1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px,
+		rgb(0, 0, 0) -1.87291px -0.70157px 0px, rgb(0, 0, 0) -1.30729px
+		-1.5136px 0px, rgb(0, 0, 0) -0.42159px -1.95506px 0px, rgb(0, 0, 0)
+		0.56732px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px,
+		rgb(0, 0, 0) 1.92034px -0.55883px 0px;
+	
+}
+
+
+.contenedor {
+	width: 50%;
+	display: initial;
+}
+
+#opcion1{
+	background-image: url("../img/cartaAleatoria.png");
+}
+#opcion2{
+	background-image: url("../img/carta-custom.png");
+}
+#opcion3{
+	background-image: url("../img/resto-cartas.png");
+}
+
+.capa1 {
+	margin: 0 auto;
+	background-size: 300px 500px;
+	width: 300px;
+	height: 300px;
+	background-position: center;
+	transition: background-size 2s;
+	display: table-cell;
+	border-radius: 30%;
+	vertical-align: middle;
+}
+
+.capa1:hover {
+	background-size: 1200px 1000px;
+}
+
+.capa2 {
+	width: 300px;
+	border-radius: 30%;
+	height: 500px;
+	display: table-cell;
+	vertical-align: middle;
+	background-size: 500px 300px;
+	transform: scale(0.4);
+	text-align: center;
+	transition: font-size 2s, transform 2s, background-color 2s;
+}
+
+.capa1:hover .capa2 {
+	width: 500px;
+	height: 300px;
+	display: table-cell;
+	vertical-align: middle;
+	transform: scale(1);
+	font-size: 50px;
+}
+
+#texto {
+	background-color: rgba(2, 2, 2, 0.541);
+	text-align: center;
+	font-size: 25pt;
+	opacity: 0;
+}
+
+#texto:hover {
+	opacity: 1;
+}
+
+a {
+	color: rgb(255, 255, 255);
+	text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.75517px 0.95885px
+		0px, rgb(0, 0, 0) 1.0806px 1.68294px 0px, rgb(0, 0, 0) 0.14147px
+		1.99499px 0px, rgb(0, 0, 0) -0.83229px 1.81859px 0px, rgb(0, 0, 0)
+		-1.60229px 1.19694px 0px, rgb(0, 0, 0) -1.97998px 0.28224px 0px,
+		rgb(0, 0, 0) -1.87291px -0.70157px 0px, rgb(0, 0, 0) -1.30729px
+		-1.5136px 0px, rgb(0, 0, 0) -0.42159px -1.95506px 0px, rgb(0, 0, 0)
+		0.56732px -1.91785px 0px, rgb(0, 0, 0) 1.41734px -1.41108px 0px,
+		rgb(0, 0, 0) 1.92034px -0.55883px 0px;
+	text-decoration: none;
+	font-weight: bold;
+}
