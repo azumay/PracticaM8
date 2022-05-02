@@ -1,0 +1,38 @@
+<html>
+
+<body>
+	<form action="" method="POST" onsubmit="canviPassword()">
+		<input type="password" name="passwordNew1">
+		<input type="password" name="passwordNew2">
+	</form>
+	<div>
+		<input type="checkbox" id="verificacion">
+		<p>I'm not a robot</p>
+	</div>
+</body>
+
+</html>
+
+<script>
+
+
+	function canviPassword() {
+		let reCaptcha = document.getElementById("verificacion").value;
+		
+		if (reCaptcha == null || reCaptcha.length == 0) {
+			return false;
+			break;
+		}
+		else {
+			return false;
+		}
+		
+		if(passwordNew1 === passwordNew2){
+			return false;
+		}
+		else{
+			return true;
+		}
+
+	}
+</script>
